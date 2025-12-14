@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Meta Tags Essentiels -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO Meta Tags -->
+    <title>Agence Web France - Création de Sites Internet & Solutions Digitales</title>
+    <meta name="description" content="Agence web française spécialisée dans la création de sites internet, le développement web et les solutions digitales sur mesure. Expertise et innovation au service de votre projet.">
+    <meta name="keywords" content="agence web france, création site internet, développement web, design web, SEO, marketing digital">
+    <meta name="author" content="Agence Web France">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Agence Web France - Création de Sites Internet">
+    <meta property="og:description" content="Votre partenaire digital pour la création de sites web professionnels et innovants">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+    <!-- Header Sticky -->
+    <header id="header" class="header-sticky">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold text-primary" href="#home">
+                    <i class="bi bi-globe2"></i> Agence Web France
+                </a>
+
+                <!-- Toggle Button Mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">À Propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#annuaire">Annuaire</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary text-white ms-lg-3 px-4" href="#contact">Devis Gratuit</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Hero -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">
+                        Votre Agence Web <span class="text-primary">Française</span>
+                    </h1>
+                    <h2 class="h4 text-muted mb-4">
+                        Création de sites internet professionnels et solutions digitales sur mesure
+                    </h2>
+                    <p class="lead mb-5">
+                        Nous transformons vos idées en expériences digitales exceptionnelles.
+                        Design moderne, performances optimales et SEO intégré.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#contact" class="btn btn-primary btn-lg px-5 cta-button">
+                            <i class="bi bi-rocket-takeoff"></i> Démarrer un Projet
+                        </a>
+                        <a href="#services" class="btn btn-outline-primary btn-lg px-5">
+                            <i class="bi bi-info-circle"></i> Nos Services
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="hero-image-placeholder">
+                        <i class="bi bi-laptop display-1 text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services" class="section-padding bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Nos Services</h2>
+                    <p class="section-subtitle text-muted">
+                        Des solutions complètes pour votre présence en ligne
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-3">
+                                <i class="bi bi-brush display-4 text-primary"></i>
+                            </div>
+                            <h3 class="h5 fw-bold mb-3">Design Web</h3>
+                            <p class="text-muted">
+                                Création de designs modernes et élégants, adaptés à votre image de marque
+                                et optimisés pour tous les appareils.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-3">
+                                <i class="bi bi-code-slash display-4 text-primary"></i>
+                            </div>
+                            <h3 class="h5 fw-bold mb-3">Développement Web</h3>
+                            <p class="text-muted">
+                                Sites vitrine, e-commerce, applications web sur mesure.
+                                Technologies modernes et performances optimales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-3">
+                                <i class="bi bi-graph-up-arrow display-4 text-primary"></i>
+                            </div>
+                            <h3 class="h5 fw-bold mb-3">SEO & Marketing</h3>
+                            <p class="text-muted">
+                                Optimisation pour les moteurs de recherche et stratégies
+                                de marketing digital pour booster votre visibilité.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-3">
+                                <i class="bi bi-phone display-4 text-primary"></i>
+                            </div>
+                            <h3 class="h5 fw-bold mb-3">Responsive Design</h3>
+                            <p class="text-muted">
+                                Sites parfaitement adaptés à tous les écrans : mobile, tablette,
+                                desktop. Approche mobile-first garantie.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-3">
+                                <i class="bi bi-speedometer2 display-4 text-primary"></i>
+                            </div>
+                            <h3 class="h5 fw-bold mb-3">Performance</h3>
+                            <p class="text-muted">
+                                Sites ultra-rapides et optimisés. Temps de chargement minimal
+                                pour une expérience utilisateur exceptionnelle.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-3">
+                                <i class="bi bi-shield-check display-4 text-primary"></i>
+                            </div>
+                            <h3 class="h5 fw-bold mb-3">Sécurité</h3>
+                            <p class="text-muted">
+                                Protection optimale de vos données et de celles de vos clients.
+                                HTTPS, sauvegardes et mises à jour régulières.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À Propos -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="section-title">À Propos de Nous</h2>
+                    <p class="lead text-muted mb-4">
+                        Une agence web française passionnée par l'innovation digitale
+                    </p>
+                    <p class="mb-4">
+                        Depuis notre création, nous accompagnons les entreprises françaises dans leur
+                        transformation digitale. Notre expertise couvre l'ensemble des besoins web :
+                        de la simple page de présentation aux solutions e-commerce complexes.
+                    </p>
+                    <p class="mb-4">
+                        Notre équipe de développeurs, designers et consultants SEO travaille main dans
+                        la main pour créer des sites web qui convertissent et qui durent.
+                    </p>
+
+                    <div class="row g-4 mt-4">
+                        <div class="col-6">
+                            <div class="stat-box text-center p-3">
+                                <h3 class="display-5 fw-bold text-primary mb-2">150+</h3>
+                                <p class="text-muted mb-0">Projets Réalisés</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-box text-center p-3">
+                                <h3 class="display-5 fw-bold text-primary mb-2">98%</h3>
+                                <p class="text-muted mb-0">Clients Satisfaits</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="about-image-placeholder text-center">
+                        <i class="bi bi-people display-1 text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Portfolio -->
+    <section id="portfolio" class="section-padding bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Nos Réalisations</h2>
+                    <p class="section-subtitle text-muted">
+                        Découvrez quelques-uns de nos projets récents
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Projet 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card card border-0 shadow-sm">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image bg-primary bg-opacity-10 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image display-4 text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold mb-2">Site E-commerce Mode</h3>
+                            <p class="text-muted small mb-3">
+                                Boutique en ligne complète avec paiement sécurisé et gestion des stocks
+                            </p>
+                            <div class="d-flex gap-2">
+                                <span class="badge bg-primary">E-commerce</span>
+                                <span class="badge bg-secondary">Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card card border-0 shadow-sm">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image bg-success bg-opacity-10 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image display-4 text-success"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold mb-2">Application Web SaaS</h3>
+                            <p class="text-muted small mb-3">
+                                Plateforme de gestion de projets collaborative et intuitive
+                            </p>
+                            <div class="d-flex gap-2">
+                                <span class="badge bg-primary">Web App</span>
+                                <span class="badge bg-secondary">SaaS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card card border-0 shadow-sm">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image bg-warning bg-opacity-10 d-flex align-items-center justify-content-center">
+                                <i class="bi bi-image display-4 text-warning"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="h5 fw-bold mb-2">Site Vitrine Restaurant</h3>
+                            <p class="text-muted small mb-3">
+                                Site élégant avec menu interactif et système de réservation en ligne
+                            </p>
+                            <div class="d-flex gap-2">
+                                <span class="badge bg-primary">Vitrine</span>
+                                <span class="badge bg-secondary">Réservation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Annuaire -->
+    <section id="annuaire" class="section-padding">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Trouvez votre Agence Web</h2>
+                    <p class="section-subtitle text-muted">
+                        Nous intervenons dans toute la France - Plus de 35 000 villes couvertes
+                    </p>
+                </div>
+            </div>
+
+            <!-- Barre de recherche -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8">
+                    <div class="search-box card border-0 shadow-lg p-4">
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-text bg-white border-end-0">
+                                <i class="bi bi-search text-primary"></i>
+                            </span>
+                            <input type="text"
+                                   id="citySearch"
+                                   class="form-control border-start-0"
+                                   placeholder="Rechercher votre ville (ex: Paris, Lyon, Marseille...)"
+                                   autocomplete="off">
+                        </div>
+                        <div id="searchResults" class="search-results mt-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grandes villes populaires -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h3 class="h4 fw-bold mb-4 text-center">
+                        <i class="bi bi-star-fill text-warning"></i> Villes Populaires
+                    </h3>
+                    <div class="d-flex flex-wrap justify-content-center gap-2">
+                        <a href="villes/agence-web-paris-75000.html" class="btn btn-outline-primary">Paris</a>
+                        <a href="villes/agence-web-marseille-13000.html" class="btn btn-outline-primary">Marseille</a>
+                        <a href="villes/agence-web-lyon-69000.html" class="btn btn-outline-primary">Lyon</a>
+                        <a href="villes/agence-web-toulouse-31000.html" class="btn btn-outline-primary">Toulouse</a>
+                        <a href="villes/agence-web-nice-06000.html" class="btn btn-outline-primary">Nice</a>
+                        <a href="villes/agence-web-nantes-44000.html" class="btn btn-outline-primary">Nantes</a>
+                        <a href="villes/agence-web-montpellier-34000.html" class="btn btn-outline-primary">Montpellier</a>
+                        <a href="villes/agence-web-strasbourg-67000.html" class="btn btn-outline-primary">Strasbourg</a>
+                        <a href="villes/agence-web-bordeaux-33000.html" class="btn btn-outline-primary">Bordeaux</a>
+                        <a href="villes/agence-web-lille-59000.html" class="btn btn-outline-primary">Lille</a>
+                        <a href="villes/agence-web-rennes-35000.html" class="btn btn-outline-primary">Rennes</a>
+                        <a href="villes/agence-web-reims-51100.html" class="btn btn-outline-primary">Reims</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Départements par région -->
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="h4 fw-bold mb-4 text-center">
+                        <i class="bi bi-map text-primary"></i> Explorer par Département
+                    </h3>
+                </div>
+            </div>
+
+            <div class="accordion" id="regionsAccordion">
+                <!-- Île-de-France -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#idf">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Île-de-France</strong>
+                            <span class="badge bg-primary ms-2">8 départements</span>
+                        </button>
+                    </h2>
+                    <div id="idf" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="75">Paris (75)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="77">Seine-et-Marne (77)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="78">Yvelines (78)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="91">Essonne (91)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="92">Hauts-de-Seine (92)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="93">Seine-Saint-Denis (93)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="94">Val-de-Marne (94)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="95">Val-d'Oise (95)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Auvergne-Rhône-Alpes -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ara">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Auvergne-Rhône-Alpes</strong>
+                            <span class="badge bg-primary ms-2">12 départements</span>
+                        </button>
+                    </h2>
+                    <div id="ara" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="01">Ain (01)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="03">Allier (03)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="07">Ardèche (07)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="15">Cantal (15)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="26">Drôme (26)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="38">Isère (38)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="42">Loire (42)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="43">Haute-Loire (43)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="63">Puy-de-Dôme (63)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="69">Rhône (69)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="73">Savoie (73)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="74">Haute-Savoie (74)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nouvelle-Aquitaine -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#naq">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Nouvelle-Aquitaine</strong>
+                            <span class="badge bg-primary ms-2">12 départements</span>
+                        </button>
+                    </h2>
+                    <div id="naq" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="16">Charente (16)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="17">Charente-Maritime (17)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="19">Corrèze (19)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="23">Creuse (23)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="24">Dordogne (24)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="33">Gironde (33)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="40">Landes (40)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="47">Lot-et-Garonne (47)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="64">Pyrénées-Atlantiques (64)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="79">Deux-Sèvres (79)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="86">Vienne (86)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="87">Haute-Vienne (87)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Occitanie -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#occ">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Occitanie</strong>
+                            <span class="badge bg-primary ms-2">13 départements</span>
+                        </button>
+                    </h2>
+                    <div id="occ" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="09">Ariège (09)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="11">Aude (11)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="12">Aveyron (12)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="30">Gard (30)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="31">Haute-Garonne (31)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="32">Gers (32)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="34">Hérault (34)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="46">Lot (46)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="48">Lozère (48)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="65">Hautes-Pyrénées (65)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="66">Pyrénées-Orientales (66)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="81">Tarn (81)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="82">Tarn-et-Garonne (82)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Provence-Alpes-Côte d'Azur -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#paca">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Provence-Alpes-Côte d'Azur</strong>
+                            <span class="badge bg-primary ms-2">6 départements</span>
+                        </button>
+                    </h2>
+                    <div id="paca" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="04">Alpes-de-Haute-Provence (04)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="05">Hautes-Alpes (05)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="06">Alpes-Maritimes (06)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="13">Bouches-du-Rhône (13)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="83">Var (83)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="84">Vaucluse (84)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grand Est -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gest">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Grand Est</strong>
+                            <span class="badge bg-primary ms-2">10 départements</span>
+                        </button>
+                    </h2>
+                    <div id="gest" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="08">Ardennes (08)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="10">Aube (10)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="51">Marne (51)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="52">Haute-Marne (52)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="54">Meurthe-et-Moselle (54)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="55">Meuse (55)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="57">Moselle (57)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="67">Bas-Rhin (67)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="68">Haut-Rhin (68)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="88">Vosges (88)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hauts-de-France -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hdf">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Hauts-de-France</strong>
+                            <span class="badge bg-primary ms-2">5 départements</span>
+                        </button>
+                    </h2>
+                    <div id="hdf" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="02">Aisne (02)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="59">Nord (59)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="60">Oise (60)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="62">Pas-de-Calais (62)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="80">Somme (80)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Normandie -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#norm">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Normandie</strong>
+                            <span class="badge bg-primary ms-2">5 départements</span>
+                        </button>
+                    </h2>
+                    <div id="norm" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="14">Calvados (14)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="27">Eure (27)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="50">Manche (50)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="61">Orne (61)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="76">Seine-Maritime (76)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bretagne -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bret">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Bretagne</strong>
+                            <span class="badge bg-primary ms-2">4 départements</span>
+                        </button>
+                    </h2>
+                    <div id="bret" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="22">Côtes-d'Armor (22)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="29">Finistère (29)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="35">Ille-et-Vilaine (35)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="56">Morbihan (56)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pays de la Loire -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pdl">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Pays de la Loire</strong>
+                            <span class="badge bg-primary ms-2">5 départements</span>
+                        </button>
+                    </h2>
+                    <div id="pdl" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="44">Loire-Atlantique (44)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="49">Maine-et-Loire (49)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="53">Mayenne (53)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="72">Sarthe (72)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="85">Vendée (85)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Centre-Val de Loire -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cvl">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Centre-Val de Loire</strong>
+                            <span class="badge bg-primary ms-2">6 départements</span>
+                        </button>
+                    </h2>
+                    <div id="cvl" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="18">Cher (18)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="28">Eure-et-Loir (28)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="36">Indre (36)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="37">Indre-et-Loire (37)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="41">Loir-et-Cher (41)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="45">Loiret (45)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bourgogne-Franche-Comté -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bfc">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Bourgogne-Franche-Comté</strong>
+                            <span class="badge bg-primary ms-2">8 départements</span>
+                        </button>
+                    </h2>
+                    <div id="bfc" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="21">Côte-d'Or (21)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="25">Doubs (25)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="39">Jura (39)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="58">Nièvre (58)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="70">Haute-Saône (70)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="71">Saône-et-Loire (71)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="89">Yonne (89)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="90">Territoire de Belfort (90)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Corse -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#corse">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Corse</strong>
+                            <span class="badge bg-primary ms-2">2 départements</span>
+                        </button>
+                    </h2>
+                    <div id="corse" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="2A">Corse-du-Sud (2A)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="2B">Haute-Corse (2B)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DOM-TOM -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#domtom">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <strong>Outre-Mer</strong>
+                            <span class="badge bg-primary ms-2">5 départements</span>
+                        </button>
+                    </h2>
+                    <div id="domtom" class="accordion-collapse collapse" data-bs-parent="#regionsAccordion">
+                        <div class="accordion-body">
+                            <div class="row g-2">
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="971">Guadeloupe (971)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="972">Martinique (972)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="973">Guyane (973)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="974">La Réunion (974)</a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="#" class="dept-link" data-dept="976">Mayotte (976)</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal pour afficher les villes d'un département -->
+            <div class="modal fade" id="deptModal" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header bg-primary text-white">
+                            <h5 class="modal-title"><i class="bi bi-geo-alt"></i> <span id="deptModalTitle">Département</span></h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="deptModalContent" class="row g-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section CTA -->
+    <section class="cta-section section-padding bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h2 class="display-5 fw-bold mb-4">
+                        Prêt à Lancer Votre Projet Web ?
+                    </h2>
+                    <p class="lead mb-5">
+                        Contactez-nous dès aujourd'hui pour un devis gratuit et personnalisé.
+                        Notre équipe est là pour concrétiser vos ambitions digitales.
+                    </p>
+                    <a href="#contact" class="btn btn-light btn-lg px-5 cta-button">
+                        <i class="bi bi-envelope"></i> Demander un Devis Gratuit
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Contactez-Nous</h2>
+                    <p class="section-subtitle text-muted">
+                        Nous sommes à votre écoute pour répondre à vos questions
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <h3 class="h4 mb-4">Envoyez-nous un Message</h3>
+                    <form id="contactForm" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nom complet</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Téléphone</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Sujet</label>
+                            <select class="form-select" id="subject" required>
+                                <option value="">Sélectionnez un sujet</option>
+                                <option value="devis">Demande de devis</option>
+                                <option value="info">Demande d'information</option>
+                                <option value="support">Support technique</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                            <i class="bi bi-send"></i> Envoyer le Message
+                        </button>
+                    </form>
+                </div>
+
+                <div class="col-lg-6">
+                    <h3 class="h4 mb-4">Informations de Contact</h3>
+
+                    <div class="contact-info">
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="contact-icon me-3">
+                                <i class="bi bi-geo-alt-fill text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="h6 fw-bold mb-1">Adresse</h4>
+                                <p class="text-muted mb-0">
+                                    123 Avenue des Champs-Élysées<br>
+                                    75008 Paris, France
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="contact-icon me-3">
+                                <i class="bi bi-telephone-fill text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="h6 fw-bold mb-1">Téléphone</h4>
+                                <p class="text-muted mb-0"><a href="tel:+33641127926" class="text-muted text-decoration-none">06 41 12 79 26</a></p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="contact-icon me-3">
+                                <i class="bi bi-envelope-fill text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="h6 fw-bold mb-1">Email</h4>
+                                <p class="text-muted mb-0"><a href="mailto:contact.capitainepub@gmail.com" class="text-muted text-decoration-none">contact.capitainepub@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="contact-icon me-3">
+                                <i class="bi bi-clock-fill text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="h6 fw-bold mb-1">Horaires</h4>
+                                <p class="text-muted mb-0">
+                                    Lundi - Vendredi: 9h00 - 18h00<br>
+                                    Weekend: Fermé
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links mt-5">
+                        <h4 class="h6 fw-bold mb-3">Suivez-nous</h4>
+                        <div class="d-flex gap-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-globe2"></i> Agence Web France
+                    </h5>
+                    <p class="text-white-50">
+                        Votre partenaire de confiance pour tous vos projets web.
+                        Innovation, qualité et expertise française.
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3">Navigation</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="#home" class="text-white-50 text-decoration-none hover-link">Accueil</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#services" class="text-white-50 text-decoration-none hover-link">Services</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#about" class="text-white-50 text-decoration-none hover-link">À Propos</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#portfolio" class="text-white-50 text-decoration-none hover-link">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Services</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="#" class="text-white-50 text-decoration-none hover-link">Design Web</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-white-50 text-decoration-none hover-link">Développement</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-white-50 text-decoration-none hover-link">SEO</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-white-50 text-decoration-none hover-link">Marketing Digital</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Contact</h5>
+                    <ul class="list-unstyled text-white-50">
+                        <li class="mb-2">
+                            <i class="bi bi-geo-alt"></i> France
+                        </li>
+                        <li class="mb-2">
+                            <a href="tel:+33641127926" class="text-white-50 text-decoration-none"><i class="bi bi-telephone"></i> 06 41 12 79 26</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="mailto:contact.capitainepub@gmail.com" class="text-white-50 text-decoration-none"><i class="bi bi-envelope"></i> contact.capitainepub@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4 bg-white opacity-25">
+
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-white-50 mb-0">
+                        &copy; 2024 Agence Web France. Tous droits réservés.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white-50 text-decoration-none hover-link me-3">Mentions Légales</a>
+                    <a href="#" class="text-white-50 text-decoration-none hover-link me-3">Confidentialité</a>
+                    <a href="#" class="text-white-50 text-decoration-none hover-link">CGV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn" title="Retour en haut">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
