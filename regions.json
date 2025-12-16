@@ -1,0 +1,1331 @@
+{
+  "Uusimaa": {
+    "slug": "uusimaa",
+    "main_city": "Helsinki",
+    "cities": [
+      {
+        "name": "Helsinki",
+        "slug": "helsinki"
+      },
+      {
+        "name": "Sipoo",
+        "slug": "sipoo"
+      },
+      {
+        "name": "Vantaa",
+        "slug": "vantaa"
+      },
+      {
+        "name": "Nurmijärvi",
+        "slug": "nurmijarvi"
+      },
+      {
+        "name": "Espoo",
+        "slug": "espoo"
+      },
+      {
+        "name": "Kirkkonummi",
+        "slug": "kirkkonummi"
+      },
+      {
+        "name": "Siuntio",
+        "slug": "siuntio"
+      },
+      {
+        "name": "Kauniainen",
+        "slug": "kauniainen"
+      },
+      {
+        "name": "Vihti",
+        "slug": "vihti"
+      },
+      {
+        "name": "Karkkila",
+        "slug": "karkkila"
+      },
+      {
+        "name": "Kerava",
+        "slug": "kerava"
+      },
+      {
+        "name": "Tuusula",
+        "slug": "tuusula"
+      },
+      {
+        "name": "Järvenpää",
+        "slug": "jarvenpaa"
+      },
+      {
+        "name": "Mäntsälä",
+        "slug": "mantsala"
+      },
+      {
+        "name": "Hyvinkää",
+        "slug": "hyvinkaa"
+      },
+      {
+        "name": "Porvoo",
+        "slug": "porvoo"
+      },
+      {
+        "name": "Loviisa",
+        "slug": "loviisa"
+      },
+      {
+        "name": "Lohja",
+        "slug": "lohja"
+      },
+      {
+        "name": "Inkoo",
+        "slug": "inkoo"
+      },
+      {
+        "name": "Raasepori",
+        "slug": "raasepori"
+      },
+      {
+        "name": "Hanko",
+        "slug": "hanko"
+      },
+      {
+        "name": "Ypäjä",
+        "slug": "ypaja"
+      },
+      {
+        "name": "Oripää",
+        "slug": "oripaa"
+      },
+      {
+        "name": "Vampula",
+        "slug": "vampula"
+      },
+      {
+        "name": "Huittinen",
+        "slug": "huittinen"
+      },
+      {
+        "name": "Äetsä",
+        "slug": "aetsa"
+      },
+      {
+        "name": "Kokemäki",
+        "slug": "kokemaki"
+      },
+      {
+        "name": "Parikkala",
+        "slug": "parikkala"
+      },
+      {
+        "name": "Leppävirta",
+        "slug": "leppavirta"
+      },
+      {
+        "name": "Joroinen",
+        "slug": "joroinen"
+      },
+      {
+        "name": "Heinävesi",
+        "slug": "heinavesi"
+      }
+    ]
+  },
+  "Varsinais-Suomi": {
+    "slug": "varsinais-suomi",
+    "main_city": "Turku",
+    "cities": [
+      {
+        "name": "Turku",
+        "slug": "turku"
+      },
+      {
+        "name": "Kaarina",
+        "slug": "kaarina"
+      },
+      {
+        "name": "Naantali",
+        "slug": "naantali"
+      },
+      {
+        "name": "Raisio",
+        "slug": "raisio"
+      },
+      {
+        "name": "Masku",
+        "slug": "masku"
+      },
+      {
+        "name": "Nousiainen",
+        "slug": "nousiainen"
+      },
+      {
+        "name": "Lieto",
+        "slug": "lieto"
+      },
+      {
+        "name": "Tarvasjoki",
+        "slug": "tarvasjoki"
+      },
+      {
+        "name": "Marttila",
+        "slug": "marttila"
+      },
+      {
+        "name": "Paimio",
+        "slug": "paimio"
+      },
+      {
+        "name": "Sauvo",
+        "slug": "sauvo"
+      },
+      {
+        "name": "Parainen",
+        "slug": "parainen"
+      },
+      {
+        "name": "Mariehamn",
+        "slug": "mariehamn"
+      },
+      {
+        "name": "Jomala",
+        "slug": "jomala"
+      },
+      {
+        "name": "Hammarland",
+        "slug": "hammarland"
+      },
+      {
+        "name": "Eckerö",
+        "slug": "eckero"
+      },
+      {
+        "name": "Saltvik",
+        "slug": "saltvik"
+      },
+      {
+        "name": "Geta",
+        "slug": "geta"
+      },
+      {
+        "name": "Finström",
+        "slug": "finstrom"
+      },
+      {
+        "name": "Sund",
+        "slug": "sund"
+      },
+      {
+        "name": "Vårdö",
+        "slug": "vardo"
+      },
+      {
+        "name": "Lemland",
+        "slug": "lemland"
+      },
+      {
+        "name": "Lumparland",
+        "slug": "lumparland"
+      },
+      {
+        "name": "Föglö",
+        "slug": "foglo"
+      },
+      {
+        "name": "Sottunga",
+        "slug": "sottunga"
+      },
+      {
+        "name": "Kökar",
+        "slug": "kokar"
+      },
+      {
+        "name": "Kumlinge",
+        "slug": "kumlinge"
+      },
+      {
+        "name": "Brändö",
+        "slug": "brando"
+      },
+      {
+        "name": "Mynämäki",
+        "slug": "mynamaki"
+      },
+      {
+        "name": "Vehmaa",
+        "slug": "vehmaa"
+      },
+      {
+        "name": "Taivassalo",
+        "slug": "taivassalo"
+      },
+      {
+        "name": "Kustavi",
+        "slug": "kustavi"
+      },
+      {
+        "name": "Uusikaupunki",
+        "slug": "uusikaupunki"
+      },
+      {
+        "name": "Laitila",
+        "slug": "laitila"
+      },
+      {
+        "name": "Pyhäranta",
+        "slug": "pyharanta"
+      },
+      {
+        "name": "Salo",
+        "slug": "salo"
+      },
+      {
+        "name": "Kemiönsaari",
+        "slug": "kemionsaari"
+      },
+      {
+        "name": "Rauma",
+        "slug": "rauma"
+      },
+      {
+        "name": "Eurajoki",
+        "slug": "eurajoki"
+      },
+      {
+        "name": "Eura",
+        "slug": "eura"
+      },
+      {
+        "name": "Köyliö",
+        "slug": "koylio"
+      },
+      {
+        "name": "Säkylä",
+        "slug": "sakyla"
+      }
+    ]
+  },
+  "Satakunta": {
+    "slug": "satakunta",
+    "main_city": "Pori",
+    "cities": [
+      {
+        "name": "Pori",
+        "slug": "pori"
+      },
+      {
+        "name": "Ulvila",
+        "slug": "ulvila"
+      },
+      {
+        "name": "Luvia",
+        "slug": "luvia"
+      },
+      {
+        "name": "Harjavalta",
+        "slug": "harjavalta"
+      },
+      {
+        "name": "Nakkila",
+        "slug": "nakkila"
+      },
+      {
+        "name": "Pomarkku",
+        "slug": "pomarkku"
+      },
+      {
+        "name": "Siikainen",
+        "slug": "siikainen"
+      },
+      {
+        "name": "Merikarvia",
+        "slug": "merikarvia"
+      },
+      {
+        "name": "Sastamala",
+        "slug": "sastamala"
+      },
+      {
+        "name": "Vammala",
+        "slug": "vammala"
+      },
+      {
+        "name": "Mouhijärvi",
+        "slug": "mouhijarvi"
+      },
+      {
+        "name": "Kankaanpää",
+        "slug": "kankaanpaa"
+      },
+      {
+        "name": "Jämijärvi",
+        "slug": "jamijarvi"
+      },
+      {
+        "name": "Honkajoki",
+        "slug": "honkajoki"
+      }
+    ]
+  },
+  "Kanta-Hame": {
+    "slug": "kanta-hame",
+    "main_city": "Hameenlinna",
+    "cities": [
+      {
+        "name": "Riihimäki",
+        "slug": "riihimaki"
+      },
+      {
+        "name": "Hausjärvi",
+        "slug": "hausjarvi"
+      },
+      {
+        "name": "Loppi",
+        "slug": "loppi"
+      },
+      {
+        "name": "Hämeenlinna",
+        "slug": "hameenlinna"
+      },
+      {
+        "name": "Janakkala",
+        "slug": "janakkala"
+      },
+      {
+        "name": "Forssa",
+        "slug": "forssa"
+      },
+      {
+        "name": "Tammela",
+        "slug": "tammela"
+      },
+      {
+        "name": "Somero",
+        "slug": "somero"
+      },
+      {
+        "name": "Koski Tl",
+        "slug": "koski-tl"
+      },
+      {
+        "name": "Jokioinen",
+        "slug": "jokioinen"
+      },
+      {
+        "name": "Humppila",
+        "slug": "humppila"
+      },
+      {
+        "name": "Urjala",
+        "slug": "urjala"
+      },
+      {
+        "name": "Punkalaidun",
+        "slug": "punkalaidun"
+      }
+    ]
+  },
+  "Pirkanmaa": {
+    "slug": "pirkanmaa",
+    "main_city": "Tampere",
+    "cities": [
+      {
+        "name": "Tampere",
+        "slug": "tampere"
+      },
+      {
+        "name": "Ylöjärvi",
+        "slug": "ylojarvi"
+      },
+      {
+        "name": "Lempäälä",
+        "slug": "lempaala"
+      },
+      {
+        "name": "Pirkkala",
+        "slug": "pirkkala"
+      },
+      {
+        "name": "Ruovesi",
+        "slug": "ruovesi"
+      },
+      {
+        "name": "Virrat",
+        "slug": "virrat"
+      },
+      {
+        "name": "Längelmäki",
+        "slug": "langelmaki"
+      },
+      {
+        "name": "Orivesi",
+        "slug": "orivesi"
+      },
+      {
+        "name": "Juupajoki",
+        "slug": "juupajoki"
+      },
+      {
+        "name": "Kangasala",
+        "slug": "kangasala"
+      },
+      {
+        "name": "Pälkäne",
+        "slug": "palkane"
+      },
+      {
+        "name": "Kuhmalahti",
+        "slug": "kuhmalahti"
+      },
+      {
+        "name": "Luopioinen",
+        "slug": "luopioinen"
+      },
+      {
+        "name": "Nokia",
+        "slug": "nokia"
+      },
+      {
+        "name": "Vesilahti",
+        "slug": "vesilahti"
+      },
+      {
+        "name": "Valkeakoski",
+        "slug": "valkeakoski"
+      },
+      {
+        "name": "Akaa",
+        "slug": "akaa"
+      },
+      {
+        "name": "Kylmäkoski",
+        "slug": "kylmakoski"
+      },
+      {
+        "name": "Hämeenkyrö",
+        "slug": "hameenkyro"
+      },
+      {
+        "name": "Ikaalinen",
+        "slug": "ikaalinen"
+      },
+      {
+        "name": "Parkano",
+        "slug": "parkano"
+      },
+      {
+        "name": "Kihniö",
+        "slug": "kihnio"
+      },
+      {
+        "name": "Karvia",
+        "slug": "karvia"
+      }
+    ]
+  },
+  "Paijat-Hame": {
+    "slug": "paijat-hame",
+    "main_city": "Lahti",
+    "cities": [
+      {
+        "name": "Lahti",
+        "slug": "lahti"
+      },
+      {
+        "name": "Hollola",
+        "slug": "hollola"
+      },
+      {
+        "name": "Nastola",
+        "slug": "nastola"
+      },
+      {
+        "name": "Orimattila",
+        "slug": "orimattila"
+      },
+      {
+        "name": "Kärkölä",
+        "slug": "karkola"
+      },
+      {
+        "name": "Asikkala",
+        "slug": "asikkala"
+      },
+      {
+        "name": "Padasjoki",
+        "slug": "padasjoki"
+      },
+      {
+        "name": "Kuhmoinen",
+        "slug": "kuhmoinen"
+      },
+      {
+        "name": "Heinola",
+        "slug": "heinola"
+      },
+      {
+        "name": "Pertunmaa",
+        "slug": "pertunmaa"
+      },
+      {
+        "name": "Hartola",
+        "slug": "hartola"
+      },
+      {
+        "name": "Sysmä",
+        "slug": "sysma"
+      }
+    ]
+  },
+  "Kymenlaakso": {
+    "slug": "kymenlaakso",
+    "main_city": "Kouvola",
+    "cities": [
+      {
+        "name": "Kouvola",
+        "slug": "kouvola"
+      },
+      {
+        "name": "Kuusankoski",
+        "slug": "kuusankoski"
+      },
+      {
+        "name": "Valkeala",
+        "slug": "valkeala"
+      },
+      {
+        "name": "Anjalankoski",
+        "slug": "anjalankoski"
+      },
+      {
+        "name": "Elimäki",
+        "slug": "elimaki"
+      },
+      {
+        "name": "Iitti",
+        "slug": "iitti"
+      },
+      {
+        "name": "Jaala",
+        "slug": "jaala"
+      },
+      {
+        "name": "Kotka",
+        "slug": "kotka"
+      },
+      {
+        "name": "Pyhtää",
+        "slug": "pyhtaa"
+      },
+      {
+        "name": "Hamina",
+        "slug": "hamina"
+      },
+      {
+        "name": "Miehikkälä",
+        "slug": "miehikkala"
+      },
+      {
+        "name": "Virolahti",
+        "slug": "virolahti"
+      }
+    ]
+  },
+  "Etela-Karjala": {
+    "slug": "etela-karjala",
+    "main_city": "Lappeenranta",
+    "cities": [
+      {
+        "name": "Lappeenranta",
+        "slug": "lappeenranta"
+      },
+      {
+        "name": "Luumäki",
+        "slug": "luumaki"
+      },
+      {
+        "name": "Lemi",
+        "slug": "lemi"
+      },
+      {
+        "name": "Savitaipale",
+        "slug": "savitaipale"
+      },
+      {
+        "name": "Taipalsaari",
+        "slug": "taipalsaari"
+      },
+      {
+        "name": "Imatra",
+        "slug": "imatra"
+      },
+      {
+        "name": "Ruokolahti",
+        "slug": "ruokolahti"
+      },
+      {
+        "name": "Rautjärvi",
+        "slug": "rautjarvi"
+      }
+    ]
+  },
+  "Etela-Savo": {
+    "slug": "etela-savo",
+    "main_city": "Mikkeli",
+    "cities": [
+      {
+        "name": "Mikkeli",
+        "slug": "mikkeli"
+      },
+      {
+        "name": "Kangasniemi",
+        "slug": "kangasniemi"
+      },
+      {
+        "name": "Juva",
+        "slug": "juva"
+      },
+      {
+        "name": "Puumala",
+        "slug": "puumala"
+      },
+      {
+        "name": "Hirvensalmi",
+        "slug": "hirvensalmi"
+      },
+      {
+        "name": "Mäntyharju",
+        "slug": "mantyharju"
+      },
+      {
+        "name": "Savonlinna",
+        "slug": "savonlinna"
+      },
+      {
+        "name": "Enonkoski",
+        "slug": "enonkoski"
+      },
+      {
+        "name": "Kerimäki",
+        "slug": "kerimaki"
+      },
+      {
+        "name": "Punkaharju",
+        "slug": "punkaharju"
+      },
+      {
+        "name": "Sulkava",
+        "slug": "sulkava"
+      },
+      {
+        "name": "Rantasalmi",
+        "slug": "rantasalmi"
+      }
+    ]
+  },
+  "Pohjois-Savo": {
+    "slug": "pohjois-savo",
+    "main_city": "Kuopio",
+    "cities": [
+      {
+        "name": "Kuopio",
+        "slug": "kuopio"
+      },
+      {
+        "name": "Siilinjärvi",
+        "slug": "siilinjarvi"
+      },
+      {
+        "name": "Iisalmi",
+        "slug": "iisalmi"
+      },
+      {
+        "name": "Nurmes",
+        "slug": "nurmes"
+      },
+      {
+        "name": "Pieksämäki",
+        "slug": "pieksamaki"
+      },
+      {
+        "name": "Suonenjoki",
+        "slug": "suonenjoki"
+      },
+      {
+        "name": "Varkaus",
+        "slug": "varkaus"
+      }
+    ]
+  },
+  "Pohjois-Karjala": {
+    "slug": "pohjois-karjala",
+    "main_city": "Joensuu",
+    "cities": [
+      {
+        "name": "Joensuu",
+        "slug": "joensuu"
+      },
+      {
+        "name": "Kontiolahti",
+        "slug": "kontiolahti"
+      },
+      {
+        "name": "Lieksa",
+        "slug": "lieksa"
+      },
+      {
+        "name": "Rääkkylä",
+        "slug": "raakkyla"
+      },
+      {
+        "name": "Kitee",
+        "slug": "kitee"
+      },
+      {
+        "name": "Tohmajärvi",
+        "slug": "tohmajarvi"
+      },
+      {
+        "name": "Ilomantsi",
+        "slug": "ilomantsi"
+      },
+      {
+        "name": "Liperi",
+        "slug": "liperi"
+      },
+      {
+        "name": "Outokumpu",
+        "slug": "outokumpu"
+      },
+      {
+        "name": "Polvijärvi",
+        "slug": "polvijarvi"
+      },
+      {
+        "name": "Juuka",
+        "slug": "juuka"
+      }
+    ]
+  },
+  "Keski-Suomi": {
+    "slug": "keski-suomi",
+    "main_city": "Jyvaskyla",
+    "cities": [
+      {
+        "name": "Jyväskylä",
+        "slug": "jyvaskyla"
+      },
+      {
+        "name": "Muurame",
+        "slug": "muurame"
+      },
+      {
+        "name": "Laukaa",
+        "slug": "laukaa"
+      },
+      {
+        "name": "Hankasalmi",
+        "slug": "hankasalmi"
+      },
+      {
+        "name": "Petäjävesi",
+        "slug": "petajavesi"
+      },
+      {
+        "name": "Jämsä",
+        "slug": "jamsa"
+      },
+      {
+        "name": "Multia",
+        "slug": "multia"
+      },
+      {
+        "name": "Keuruu",
+        "slug": "keuruu"
+      },
+      {
+        "name": "Äänekoski",
+        "slug": "aanekoski"
+      },
+      {
+        "name": "Viitasaari",
+        "slug": "viitasaari"
+      },
+      {
+        "name": "Pihtipudas",
+        "slug": "pihtipudas"
+      }
+    ]
+  },
+  "Etela-Pohjanmaa": {
+    "slug": "etela-pohjanmaa",
+    "main_city": "Seinajoki",
+    "cities": [
+      {
+        "name": "Seinäjoki",
+        "slug": "seinajoki"
+      },
+      {
+        "name": "Nurmo",
+        "slug": "nurmo"
+      },
+      {
+        "name": "Kurikka",
+        "slug": "kurikka"
+      },
+      {
+        "name": "Ylistaro",
+        "slug": "ylistaro"
+      },
+      {
+        "name": "Isokyrö",
+        "slug": "isokyro"
+      },
+      {
+        "name": "Kauhajoki",
+        "slug": "kauhajoki"
+      },
+      {
+        "name": "Lapua",
+        "slug": "lapua"
+      },
+      {
+        "name": "Kauhava",
+        "slug": "kauhava"
+      },
+      {
+        "name": "Kortesjärvi",
+        "slug": "kortesjarvi"
+      },
+      {
+        "name": "Evijärvi",
+        "slug": "evijarvi"
+      },
+      {
+        "name": "Lappajärvi",
+        "slug": "lappajarvi"
+      },
+      {
+        "name": "Vimpeli",
+        "slug": "vimpeli"
+      },
+      {
+        "name": "Alajärvi",
+        "slug": "alajarvi"
+      },
+      {
+        "name": "Alavus",
+        "slug": "alavus"
+      },
+      {
+        "name": "Lehtimäki",
+        "slug": "lehtimaki"
+      },
+      {
+        "name": "Töysä",
+        "slug": "toysa"
+      },
+      {
+        "name": "Ähtäri",
+        "slug": "ahtari"
+      },
+      {
+        "name": "Soini",
+        "slug": "soini"
+      }
+    ]
+  },
+  "Pohjanmaa": {
+    "slug": "pohjanmaa",
+    "main_city": "Vaasa",
+    "cities": [
+      {
+        "name": "Kristiinankaupunki",
+        "slug": "kristiinankaupunki"
+      },
+      {
+        "name": "Närpiö",
+        "slug": "narpio"
+      },
+      {
+        "name": "Kaskinen",
+        "slug": "kaskinen"
+      },
+      {
+        "name": "Karijoki",
+        "slug": "karijoki"
+      },
+      {
+        "name": "Teuva",
+        "slug": "teuva"
+      },
+      {
+        "name": "Isojoki",
+        "slug": "isojoki"
+      },
+      {
+        "name": "Vaasa",
+        "slug": "vaasa"
+      },
+      {
+        "name": "Mustasaari",
+        "slug": "mustasaari"
+      },
+      {
+        "name": "Maalahti",
+        "slug": "maalahti"
+      },
+      {
+        "name": "Korsnäs",
+        "slug": "korsnas"
+      },
+      {
+        "name": "Jurva",
+        "slug": "jurva"
+      },
+      {
+        "name": "Laihia",
+        "slug": "laihia"
+      },
+      {
+        "name": "Vöyri",
+        "slug": "voyri"
+      },
+      {
+        "name": "Oravainen",
+        "slug": "oravainen"
+      },
+      {
+        "name": "Uusikaarlepyy",
+        "slug": "uusikaarlepyy"
+      },
+      {
+        "name": "Kokkola",
+        "slug": "kokkola"
+      },
+      {
+        "name": "Himanka",
+        "slug": "himanka"
+      },
+      {
+        "name": "Lohtaja",
+        "slug": "lohtaja"
+      },
+      {
+        "name": "Kälviä",
+        "slug": "kalvia"
+      },
+      {
+        "name": "Kruunupyy",
+        "slug": "kruunupyy"
+      },
+      {
+        "name": "Luoto",
+        "slug": "luoto"
+      },
+      {
+        "name": "Pietarsaari",
+        "slug": "pietarsaari"
+      },
+      {
+        "name": "Pedersöre",
+        "slug": "pedersore"
+      }
+    ]
+  },
+  "Keski-Pohjanmaa": {
+    "slug": "keski-pohjanmaa",
+    "main_city": "Kokkola",
+    "cities": [
+      {
+        "name": "Kannus",
+        "slug": "kannus"
+      },
+      {
+        "name": "Toholampi",
+        "slug": "toholampi"
+      },
+      {
+        "name": "Lestijärvi",
+        "slug": "lestijarvi"
+      },
+      {
+        "name": "Halsua",
+        "slug": "halsua"
+      },
+      {
+        "name": "Kaustinen",
+        "slug": "kaustinen"
+      },
+      {
+        "name": "Veteli",
+        "slug": "veteli"
+      },
+      {
+        "name": "Perho",
+        "slug": "perho"
+      }
+    ]
+  },
+  "Pohjois-Pohjanmaa": {
+    "slug": "pohjois-pohjanmaa",
+    "main_city": "Oulu",
+    "cities": [
+      {
+        "name": "Ylivieska",
+        "slug": "ylivieska"
+      },
+      {
+        "name": "Kalajoki",
+        "slug": "kalajoki"
+      },
+      {
+        "name": "Alavieska",
+        "slug": "alavieska"
+      },
+      {
+        "name": "Sievi",
+        "slug": "sievi"
+      },
+      {
+        "name": "Nivala",
+        "slug": "nivala"
+      },
+      {
+        "name": "Haapajärvi",
+        "slug": "haapajarvi"
+      },
+      {
+        "name": "Pyhäjoki",
+        "slug": "pyhajoki"
+      },
+      {
+        "name": "Merijärvi",
+        "slug": "merijarvi"
+      },
+      {
+        "name": "Oulainen",
+        "slug": "oulainen"
+      },
+      {
+        "name": "Vihanti",
+        "slug": "vihanti"
+      },
+      {
+        "name": "Haapavesi",
+        "slug": "haapavesi"
+      },
+      {
+        "name": "Kärsämäki",
+        "slug": "karsamaki"
+      },
+      {
+        "name": "Pyhäjärvi",
+        "slug": "pyhajarvi"
+      },
+      {
+        "name": "Oulu",
+        "slug": "oulu"
+      },
+      {
+        "name": "Kempele",
+        "slug": "kempele"
+      },
+      {
+        "name": "Oulunsalo",
+        "slug": "oulunsalo"
+      },
+      {
+        "name": "Hailuoto",
+        "slug": "hailuoto"
+      },
+      {
+        "name": "Ii",
+        "slug": "ii"
+      },
+      {
+        "name": "Muhos",
+        "slug": "muhos"
+      },
+      {
+        "name": "Utajärvi",
+        "slug": "utajarvi"
+      },
+      {
+        "name": "Vaala",
+        "slug": "vaala"
+      },
+      {
+        "name": "Tyrnävä",
+        "slug": "tyrnava"
+      },
+      {
+        "name": "Liminka",
+        "slug": "liminka"
+      },
+      {
+        "name": "Lumijoki",
+        "slug": "lumijoki"
+      },
+      {
+        "name": "Raahe",
+        "slug": "raahe"
+      },
+      {
+        "name": "Siikalatva",
+        "slug": "siikalatva"
+      },
+      {
+        "name": "Siikajoki",
+        "slug": "siikajoki"
+      },
+      {
+        "name": "Rantsila",
+        "slug": "rantsila"
+      },
+      {
+        "name": "Pulkkila",
+        "slug": "pulkkila"
+      },
+      {
+        "name": "Piippola",
+        "slug": "piippola"
+      },
+      {
+        "name": "Kestilä",
+        "slug": "kestila"
+      },
+      {
+        "name": "Pyhäntä",
+        "slug": "pyhanta"
+      },
+      {
+        "name": "Pudasjärvi",
+        "slug": "pudasjarvi"
+      },
+      {
+        "name": "Taivalkoski",
+        "slug": "taivalkoski"
+      },
+      {
+        "name": "Kuusamo",
+        "slug": "kuusamo"
+      }
+    ]
+  },
+  "Kainuu": {
+    "slug": "kainuu",
+    "main_city": "Kajaani",
+    "cities": [
+      {
+        "name": "Kajaani",
+        "slug": "kajaani"
+      },
+      {
+        "name": "Vuolijoki",
+        "slug": "vuolijoki"
+      },
+      {
+        "name": "Paltamo",
+        "slug": "paltamo"
+      },
+      {
+        "name": "Ristijärvi",
+        "slug": "ristijarvi"
+      },
+      {
+        "name": "Sotkamo",
+        "slug": "sotkamo"
+      },
+      {
+        "name": "Kuhmo",
+        "slug": "kuhmo"
+      },
+      {
+        "name": "Puolanka",
+        "slug": "puolanka"
+      },
+      {
+        "name": "Hyrynsalmi",
+        "slug": "hyrynsalmi"
+      },
+      {
+        "name": "Suomussalmi",
+        "slug": "suomussalmi"
+      }
+    ]
+  },
+  "Lappi": {
+    "slug": "lappi",
+    "main_city": "Rovaniemi",
+    "cities": [
+      {
+        "name": "Kemi",
+        "slug": "kemi"
+      },
+      {
+        "name": "Tornio",
+        "slug": "tornio"
+      },
+      {
+        "name": "Pello",
+        "slug": "pello"
+      },
+      {
+        "name": "Kolari",
+        "slug": "kolari"
+      },
+      {
+        "name": "Rovaniemi",
+        "slug": "rovaniemi"
+      },
+      {
+        "name": "Ranua",
+        "slug": "ranua"
+      },
+      {
+        "name": "Posio",
+        "slug": "posio"
+      },
+      {
+        "name": "Kemijärvi",
+        "slug": "kemijarvi"
+      },
+      {
+        "name": "Savukoski",
+        "slug": "savukoski"
+      },
+      {
+        "name": "Salla",
+        "slug": "salla"
+      },
+      {
+        "name": "Kittilä",
+        "slug": "kittila"
+      },
+      {
+        "name": "Enontekiö",
+        "slug": "enontekio"
+      },
+      {
+        "name": "Muonio",
+        "slug": "muonio"
+      },
+      {
+        "name": "Sodankylä",
+        "slug": "sodankyla"
+      },
+      {
+        "name": "Inari",
+        "slug": "inari"
+      },
+      {
+        "name": "Utsjoki",
+        "slug": "utsjoki"
+      }
+    ]
+  },
+  "Ahvenanmaa": {
+    "slug": "ahvenanmaa",
+    "main_city": "Mariehamn",
+    "cities": []
+  }
+}
